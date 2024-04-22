@@ -1,0 +1,11 @@
+ /*psuedocode to calcuate square or cube of a given number based on the input*/
+ 
+ 1. Start
+ 2. Declare num(int),res(int) 
+ 3. enter a number 
+ 4. If number % 2 equals 0 (even):
+ 5. result = number * number  
+ 6. Else (odd):
+ 7. result = number * number * number 
+ 8. Display the result to the user //output
+9.  end

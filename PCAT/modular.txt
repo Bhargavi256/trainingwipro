@@ -1,0 +1,49 @@
+factorial :
+
+int factorial(int n){
+if(n==1)
+return 1;
+return n*factorial(n-1);
+
+Pseudocode:
+1.start
+2.Take input of n to find nth factorial
+3. call function nth factorial
+3. take the result
+4. print result
+5. end
+
+function factorial:
+1. if n equalsto 1, return 1
+2. call n multiply n-1 recursive factorial function
+4. return result
+
+
+fibonacci:
+
+int nthFibonacci(int n){
+if(n==0)
+   return 0;
+else if(n==1||n==2)
+   return 1;
+
+return nthFibonacci(n-1)+nthFibonacci(n-2);
+}
+
+Pseudocode:
+
+1.start
+2.Take input of n to find nth fibonacci
+3. call function nth fibonacci
+3. take the result
+4. print result
+5. end
+
+function fibonacci:
+1. if n equalsto 0, return 0
+2. if n is 1 or 2, return 1
+3. call n-1 sum n-2 recursive fibonacci function
+4. return result
+
+Modularity
+Modularity make the code more organized, reusable, and maintainable. If changes are needed, they can be made to individual modules without impacting the entire system. By creating modular components, you can easily reuse them in different parts of your application or even across multiple projects
